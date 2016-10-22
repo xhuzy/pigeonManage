@@ -52,48 +52,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseInfoManager.cs">
+    <Compile Include="各种弹出窗口\AddProductInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BaseInfoManager.Designer.cs">
+    <Compile Include="各种弹出窗口\AddProductInfo.Designer.cs">
+      <DependentUpon>AddProductInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="各种弹出窗口\BaseInfoManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="各种弹出窗口\BaseInfoManager.Designer.cs">
       <DependentUpon>BaseInfoManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="BPigeonManager.cs" />
     <Compile Include="DataOperate.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Model\MProductInfo.cs" />
+    <Compile Include="主界面\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="主界面\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HealthManagerAdd.cs">
+    <Compile Include="各种弹出窗口\HealthManagerAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HealthManagerAdd.Designer.cs">
+    <Compile Include="各种弹出窗口\HealthManagerAdd.Designer.cs">
       <DependentUpon>HealthManagerAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\MHealthInfo.cs" />
     <Compile Include="Model\MMdicine.cs" />
     <Compile Include="Model\MPigeonInfo.cs" />
-    <Compile Include="pigeonmanageDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pigeonmanageDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="pigeonmanageDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>pigeonmanageDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BaseInfoManager.resx">
+    <Compile Include="各种弹出窗口\UserMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="各种弹出窗口\UserMedicine.Designer.cs">
+      <DependentUpon>UserMedicine.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="各种弹出窗口\AddProductInfo.resx">
+      <DependentUpon>AddProductInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="各种弹出窗口\BaseInfoManager.resx">
       <DependentUpon>BaseInfoManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="主界面\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HealthManagerAdd.resx">
+    <EmbeddedResource Include="各种弹出窗口\HealthManagerAdd.resx">
       <DependentUpon>HealthManagerAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -105,28 +110,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="pigeonmanageDataSet.xsc">
-      <DependentUpon>pigeonmanageDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="pigeonmanageDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pigeonmanageDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pigeonmanageDataSet.xss">
-      <DependentUpon>pigeonmanageDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="pigeonmanageDataSet1.xsc">
-      <DependentUpon>pigeonmanageDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="pigeonmanageDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>pigeonmanageDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="pigeonmanageDataSet1.xss">
-      <DependentUpon>pigeonmanageDataSet1.xsd</DependentUpon>
-    </None>
+    <EmbeddedResource Include="各种弹出窗口\UserMedicine.resx">
+      <DependentUpon>UserMedicine.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

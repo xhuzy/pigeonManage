@@ -1,0 +1,17 @@
+F:\pigeonSystem\PegionManager\PegionManager\bin\Debug\PegionManager.exe.config
+F:\pigeonSystem\PegionManager\PegionManager\bin\Debug\PegionManager.exe
+F:\pigeonSystem\PegionManager\PegionManager\bin\Debug\PegionManager.pdb
+F:\pigeonSystem\PegionManager\PegionManager\bin\Debug\MySql.Data.dll
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.csprojResolveAssemblyReference.cache
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.AddProductInfo.resources
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.BaseInfoManager.resources
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.Form1.resources
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.HealthManagerAdd.resources
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.Properties.Resources.resources
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.UserMedicine.resources
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.csproj.GenerateResource.Cache
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.exe
+F:\pigeonSystem\PegionManager\PegionManager\obj\Debug\PegionManager.pdb
+F:\pig\pigeonManage\pigeonManage\PegionManager\bin\Debug\PegionManager.exe.config
+F:\pig\pigeonManage\pigeonManage\PegionManager\obj\Debug\PegionManager.exe
+F:\pig\pigeonManage\pigeonManage\PegionManager\obj\Debug\PegionManager.pdb

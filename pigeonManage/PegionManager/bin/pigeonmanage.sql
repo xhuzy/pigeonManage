@@ -2,16 +2,19 @@
 Navicat MySQL Data Transfer
 
 Source Server         : localhost
-Source Server Version : 50704
+Source Server Version : 50626
 Source Host           : localhost:3306
 Source Database       : pigeonmanage
 
 Target Server Type    : MYSQL
-Target Server Version : 50704
+Target Server Version : 50626
 File Encoding         : 65001
 
-Date: 2016-10-21 21:58:04
+Date: 2016-10-22 20:58:45
 */
+
+CREATE DATABASE `pigeonmanage` /*!40100 DEFAULT CHARACTER SET utf8 */
+
 
 SET FOREIGN_KEY_CHECKS=0;
 
@@ -27,16 +30,11 @@ CREATE TABLE `pigeondiseasemanage` (
   `确诊疾病` varchar(255) NOT NULL DEFAULT '',
   `基本症状` varchar(255) NOT NULL DEFAULT '',
   PRIMARY KEY (`KeyID`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of pigeondiseasemanage
 -- ----------------------------
-INSERT INTO `pigeondiseasemanage` VALUES ('2', '3', '2016-10-18 00:00:00', '胃痛', '头痛', 'xix');
-INSERT INTO `pigeondiseasemanage` VALUES ('3', '1', '2016-10-19 00:00:00', 'du', 'zi', 'lala');
-INSERT INTO `pigeondiseasemanage` VALUES ('4', '3', '2016-10-19 00:00:00', 'du', 'zi', 'la');
-INSERT INTO `pigeondiseasemanage` VALUES ('5', '1', '2016-10-20 00:00:00', '爱吃', '吃屎珍', '吃屎');
-INSERT INTO `pigeondiseasemanage` VALUES ('6', '3', '2016-10-20 00:00:00', '爱吃', '吃屎珍', '吃屎');
 
 -- ----------------------------
 -- Table structure for pigeoninfo
@@ -51,13 +49,11 @@ CREATE TABLE `pigeoninfo` (
   `配前运动` varchar(255) NOT NULL,
   `配种日期` varchar(255) NOT NULL,
   PRIMARY KEY (`KeyID`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of pigeoninfo
 -- ----------------------------
-INSERT INTO `pigeoninfo` VALUES ('1', '001', '太监', '2015-10-31 00:00:00', '自然', '是', '2016-10-01 0:00:00');
-INSERT INTO `pigeoninfo` VALUES ('3', '002', '公', '2001-01-01 00:00:00', '人工', '否', '2000-01-01 0:00:00');
 
 -- ----------------------------
 -- Table structure for pigeonmedicationmanage
@@ -72,15 +68,11 @@ CREATE TABLE `pigeonmedicationmanage` (
   `用药途径` varchar(255) NOT NULL,
   `用药疗程` int(32) NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of pigeonmedicationmanage
 -- ----------------------------
-INSERT INTO `pigeonmedicationmanage` VALUES ('64', '6', '2016-10-21 00:00:00', '1', '2', '口服,', '3');
-INSERT INTO `pigeonmedicationmanage` VALUES ('65', '5', '2016-10-21 00:00:00', '1', '2', '口服,', '3');
-INSERT INTO `pigeonmedicationmanage` VALUES ('66', '6', '2016-10-21 00:00:00', '1', '2', '口服,', '3');
-INSERT INTO `pigeonmedicationmanage` VALUES ('67', '6', '2016-10-21 00:00:00', '1', '2', '口服,', '3');
 
 -- ----------------------------
 -- Table structure for productionmanage
@@ -111,9 +103,8 @@ CREATE TABLE `productionmanage` (
   `孵化类型` varchar(255) NOT NULL,
   `批次` varchar(255) NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of productionmanage
 -- ----------------------------
-INSERT INTO `productionmanage` VALUES ('1', '0', '1', '2016-10-21 21:52:53', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21');
